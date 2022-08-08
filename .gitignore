@@ -1,0 +1,10 @@
+/node_modules/
+/public/build/
+
+.DS_Store
+*test*
+*tests*
+/halfmoon/css/halfmoon-variables.min.css
+/halfmoon/css/halfmoon-variables.css
+/halfmoon/css/halfmoon.css
+/halfmoon/js/halfmoon.js
