@@ -1,8 +1,3 @@
-<script context="module">
-  import { writable } from "svelte/store";
-  export const installable = writable({ instance: null, supported: false });
-</script>
-
 <script>
   $: sqlInstance = null;
   import { Router, Route } from "svelte-navigator";
@@ -10,6 +5,7 @@
   import Sidebar from "./_layouts/Sidebar.svelte";
 
   //routes
+  import { installable } from "./_utils/installable";
   import Search from "./_routes/Search.svelte";
   import Bookmarks from "./_routes/Bookmarks.svelte";
   import SearchResult from "./_routes/SearchResult.svelte";

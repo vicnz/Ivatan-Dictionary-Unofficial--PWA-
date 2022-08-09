@@ -1,5 +1,5 @@
 <script>
-    import { installable } from "../App.svelte";
+    import { installable } from "../_utils/installable";
     import { Link } from "svelte-navigator";
     import { halfmoon } from "../_utils/loadHalfmoon";
 
