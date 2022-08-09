@@ -5,7 +5,7 @@
 
     async function onShare() {
         await navigator.share({
-            url: "https://sample.url.com",
+            url: "https://iridescent-jelly-b63a4e.netlify.app/",
             title: "Share The App With Friends",
         });
     }
