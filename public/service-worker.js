@@ -48,7 +48,9 @@ self.addEventListener('fetch', async (event) => {
         caches.open(version).then(cache => {
             return cache.match(event.request).then(response => {
                 return response || fetch(event.request).then(response => {
-                    cache.put(event.request, response.clone())
+                    if (!event.request.url.match('(\/bookmarks | (\/search\/).*$)')) {
+                        cache.put(event.request, response.clone())
+                    }
                     return response;
                 })
             })
