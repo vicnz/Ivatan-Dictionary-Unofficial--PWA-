@@ -14,6 +14,7 @@
   import Bookmarks from "./_routes/Bookmarks.svelte";
   import SearchResult from "./_routes/SearchResult.svelte";
   import DbProvider from "./_layouts/DBProvider.svelte";
+  import LoadingPage from "./_layouts/Loading.svelte";
   import { onMount } from "svelte";
 
   async function initializeDatabase() {
@@ -51,25 +52,7 @@
     <div class="sticky-alerts" />
     <Sidebar />
     {#await initializeDatabase()}
-      <div class="content-wrapper">
-        <div
-          class="wrapper h-full w-full"
-          style="display:grid;place-items:center"
-        >
-          <div class="card border-0 bg-transparent text-center">
-            <p>
-              Initializing Dictionary Data, This may take several second(s) or a
-              minute(s) based on your connection...
-            </p>
-            <hr />
-            <p class="text-primary">
-              If you are wondering if this message will show up every visit?,
-              the answer is NO, this will only happen on first visit or when
-              your browser cleans your browser data.
-            </p>
-          </div>
-        </div>
-      </div>
+      <LoadingPage />
     {:then data}
       <Navbar />
       <div class="content-wrapper">
