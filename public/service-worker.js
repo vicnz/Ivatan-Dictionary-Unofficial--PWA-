@@ -18,6 +18,7 @@ const resources = [
     '/scripts/sql-wasm.wasm',
     '/scripts/localforage.min.js',
     '/data.db',
+    '/words.json',
     '/halfmoon/icons/remixicon.woff2?t=1590207869815',
     '/halfmoon/icons/remixicon.ttf?t=1590207869815',
     '/halfmoon/icons/remixicon.woff?t=1590207869815',
