@@ -5,7 +5,7 @@
 
     async function onShare() {
         await navigator.share({
-            url: "https://iridescent-jelly-b63a4e.netlify.app/",
+            url: "https://ivatan-dictionary.netlify.app/",
             title: "Share The App With Friends",
         });
     }
