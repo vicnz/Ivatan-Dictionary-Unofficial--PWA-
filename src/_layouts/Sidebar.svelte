@@ -61,7 +61,9 @@
         <div class="sidebar-title">Share</div>
         <div class="sidebar-divider" />
         <div class="sidebar-content">
-            <button class="btn btn-block" on:click={onShare}>Share</button>
+            <button class="btn btn-block btn-primary" on:click={onShare}>
+                Share
+            </button>
         </div>
     </div>
 </aside>

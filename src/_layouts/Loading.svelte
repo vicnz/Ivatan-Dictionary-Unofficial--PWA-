@@ -6,7 +6,7 @@
     <div class="wrapper h-full w-full" style="display:grid;place-items:center">
         <div class="card border-0 bg-transparent text-center">
             <img
-                src="favicon.png"
+                src="/favicon.png"
                 alt="page-logo"
                 class="img"
                 style="max-height: 25vh;"

@@ -1,5 +1,5 @@
 
-const version = '0.02'
+const version = '0.03'
 const resources = [
     '/',
     '/index.html',

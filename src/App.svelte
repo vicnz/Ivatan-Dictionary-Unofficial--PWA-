@@ -42,8 +42,9 @@
 
 <Router basepath="/">
   <div
-    class="page-wrapper with-navbar with-sidebar"
+    class="page-wrapper with-navbar with-sidebar with-navbar-fixed-bottom"
     data-sidebar-type="overlayed-sm-and-down"
+    data-sidebar-hidden="hidden"
   >
     <div class="sticky-alerts" />
     <Sidebar />

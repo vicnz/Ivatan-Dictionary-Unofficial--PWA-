@@ -40,3 +40,9 @@
         </button>
     </div>
 </nav>
+
+<nav
+    class="navbar navbar-fixed-bottom border-0 bg-light-lm bg-dark-dm text-light-dm text-dark-lm"
+>
+    <div class="flex-fill text-center">Built with 💖 by N30NZ0N3</div>
+</nav>

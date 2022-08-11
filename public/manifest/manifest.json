@@ -1,12 +1,13 @@
 {
-    "background_color": "#fff",
-    "display": "minimal-ui",
+    "background_color": "#1890ff",
+    "orientation": "portrait",
+    "display": "standalone",
     "name": "Ivatan Dictionary An Unofficial App",
     "short_name": "Ivatan Dictionary",
     "start_url": "/",
     "description": "Ivatan Dictionary Based from shared culture to Babuyan Islands.",
     "scope": "/",
-    "theme_color": "white",
+    "theme_color": "#1890ff",
     "categories": [
         "Books & References"
     ],
