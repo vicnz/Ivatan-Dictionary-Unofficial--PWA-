@@ -21,7 +21,7 @@
 <div class="input-wrapper">
     <input
         type="search"
-        class="form-control"
+        class="form-control border-0 bg-dark-light-dm"
         bind:value={query}
         placeholder="search here, some words has '-' at their beginning"
     />

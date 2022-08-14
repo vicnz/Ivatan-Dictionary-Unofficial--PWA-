@@ -43,6 +43,22 @@
             <span class="sidebar-icon ri ri-heart-fill" />
             Bookmarks
         </Link>
+        <div class="sidebar-title">About</div>
+        <div class="sidebar-content">
+            <p>
+                Ivatan Dictionary (Unofficial) is not official based from Ivatan
+                barebone native language , more on an excerp from the Babuyan
+                Islands.
+            </p>
+            <p>
+                Due to circumstance, I am unable to fetch relevant Dictionary
+                data to use, if you want to visit the page where this data is
+                aquired visit this <a
+                    href="https://philippines.sil.org/resources/online_resources/ivb"
+                    >website</a
+                >.
+            </p>
+        </div>
         {#if $installable.supported}
             <div class="sidebar-divider" />
             <div class="sidebar-content">
@@ -60,6 +76,9 @@
         {/if}
         <div class="sidebar-title">Share</div>
         <div class="sidebar-divider" />
+        <div class="sidebar-content">
+            <p>Share the App with Friends.</p>
+        </div>
         <div class="sidebar-content">
             <button class="btn btn-block btn-primary" on:click={onShare}>
                 Share

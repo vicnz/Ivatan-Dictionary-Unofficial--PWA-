@@ -51,7 +51,10 @@
     }
 </script>
 
-<div class="alert alert-primary border-0 rounded-0 shadow-sm" id="header">
+<div
+    class="alert alert-primary border-0 rounded-0 shadow-sm p-0 p-10"
+    id="header"
+>
     <div class="d-flex justify-content-between align-items-center m-10">
         <button class="btn" on:click={() => navigate(-1)}>Back</button>
         <div class="flex-fill text-center content-title text-uppercase">

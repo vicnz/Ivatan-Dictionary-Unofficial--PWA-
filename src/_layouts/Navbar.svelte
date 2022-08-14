@@ -13,27 +13,29 @@
     }
 </script>
 
-<nav class="navbar">
+<nav class="navbar bg-primary">
     <div class="navbar-content">
         <button
-            class="btn btn-square shadow-none"
+            class="btn btn-square shadow-none border-0 btn-primary"
             on:click={() => halfmoon((e) => e.toggleSidebar())}
             title="SHIFT+S"
         >
             <span class="ri ri-menu-line" />
         </button>
     </div>
-    <div class="navbar-brand hidden-sm-and-down">Ivatan Dictionary</div>
+    <div class="navbar-brand hidden-sm-and-down text-light-lm">
+        Ivatan Dictionary
+    </div>
     <div class="navbar-content flex-fill">
         {#await loadJSONString()}
-            <div class="navbav-item">Loading...</div>
+            <div class="navbav-item">Loading JSON data...</div>
         {:then result}
             <SearchBar words={result} />
         {/await}
     </div>
     <div class="navbar-content">
         <button
-            class="btn btn-square shadow-none rounded-sm"
+            class="btn btn-square shadow-none rounded-sm btn-primary border-0"
             on:click={() => halfmoon(toggleDarkMode)}
         >
             <span class="ri ri-moon-line" />
