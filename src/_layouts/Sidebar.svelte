@@ -5,7 +5,7 @@
 
     async function onShare() {
         await navigator.share({
-            url: "https://ivatan-dictionary.netlify.app/",
+            url: "https://ivatan-dictionary.vercel.app/",
             title: "Share The App With Friends",
         });
     }
